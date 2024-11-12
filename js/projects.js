@@ -68,11 +68,6 @@ function projects_events()
 				document.querySelector('#projects_section .projects_content').innerHTML += `
 					<div class="in_animation project ${is_safari() ? 'safari_fix' : ''}" style="background-image: url(${project.image});">
 						<div class="project_text"">
-							<div class="type">
-								<span>${project.type}</span>
-								<span></span>
-								<span>${project.date}</span>
-							</div>
 							<a class="project_title" href="${project.links[0]}" target="_blank">${project.title}</a>
 							<div class="text"><p>${project.description}</p></div>
 							<div class="tags">` + tags + `</div>
