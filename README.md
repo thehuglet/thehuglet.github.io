@@ -1,2 +1,2 @@
-# thehuglet-thehuglet.github.io
+# thehuglet.github.io
 Personal website
