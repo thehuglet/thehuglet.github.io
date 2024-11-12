@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Amy Portfolio</title>
+		<link rel="shortcut icon" type="image/png" href="resources/images/Favicon.png"/>
+
+		<meta charset="utf-8"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1"/>
+		<meta http-equiv="X-UA-Compatible" content="ie=edge"/>
+
+
+		<script src="libraries/particlesjs/particles.js"></script>
+		<script src="js/properties.js"></script>
+		<script src="js/utils.js"></script>
+		<script src="js/videos.js"></script>
+		<script src="js/header.js"></script>
+		<script src="js/home.js"></script>
+		<script src="js/about.js"></script>
+		<script src="js/projects.js"></script>
+		<script src="js/experience.js"></script>
+		<script src="js/script.js"></script>
+
+		<link rel="stylesheet" type="text/css" href="css/properties.css"/>
+		<link rel="stylesheet" type="text/css" href="css/style.css"/>
+		<link rel="stylesheet" type="text/css" href="css/header.css"/>
+		<link rel="stylesheet" type="text/css" href="css/menu.css"/>
+		<link rel="stylesheet" type="text/css" href="css/home.css"/>
+	</head>
+	<body>
+		<div id="loading_screen"></div>
+		<div id="safari_warning">
+			<p>
+				Safari is not supported. Please use another browser.
+			</p>
+		</div>
+		<div id="lcp"><p>LCP</p></div>
+		<div id="header_div">
+			<header id="header">
+				<nav class="nav">
+					<div class="logo">
+						<a class="in_animation in_animation_fast" href="#">
+							<img src="favicon.png" alt="logo" width="35px" height="35px"/>
+						</a>
+					</div>
+					<div class="menu">
+						<ol>
+							<li class="home in_animation"><a class="not_button" href="#home">Home</a></li>
+							<li class="about in_animation"><a class="not_button" href="#about">About</a></li>
+							<li class="projects in_animation"><a class="not_button" href="#projects">Projects</a></li>
+							<li class="experience in_animation"><a class="not_button" href="#experience">Work Experience</a></li>
+							<li class="contact in_animation">
+								<a class="button" href="#contact">
+									<p>Contact</p>
+									<svg class="button_arrow" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 17.69 17.39"><g>
+										<path class="path_1" d="M8.9 12.4 L8.9 12.4"/>
+										<path class="path_2" d="M16.2 5 8.9 12.4 1.5 5"/></g>
+									</svg>
+								</a>
+							</li>
+						</ol>
+					</div>
+					<svg class="menu_icon" viewBox="0 0 140 100" xmlns="http://www.w3.org/2000/svg">
+						<line x1="10" y1="10" x2="130" y2="10"/>
+						<line x1="30" y1="50" x2="130" y2="50"/>
+						<line x1="50" y1="90" x2="130" y2="90"/>
+					</svg>
+				</nav>
+			</header>
+		</div>
+
+		<div id="menu_div">
+			<svg class="menu_icon" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+				<line x1="10" y1="10" x2="90" y2="90"/>
+				<line x1="10" y1="90" x2="90" y2="10"/>
+			</svg>
+			<div class="menu">
+				<ol>
+					<li class="home"><a class="not_button" href="#home">Home</a></li>
+					<li class="about"><a class="not_button" href="#about">About</a></li>
+					<li class="projects"><a class="not_button" href="#projects">Projects</a></li>
+					<li class="experience"><a class="not_button" href="#experience">Work Experience</a></li>
+					<li class="contact">
+						<a class="button" href="#contact">
+							<p>Contact</p>
+							<svg class="button_arrow" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 17.69 17.39"><g>
+								<path class="path_1" d="M8.9 12.4 L8.9 12.4"/>
+								<path class="path_2" d="M16.2 5 8.9 12.4 1.5 5"/></g>
+							</svg>
+						</a>
+					</li>
+				</ol>
+			</div>
+		</div>
+
+		<div id="content">
+			<main id="main">
+				<a id="home"></a>
+				<section class="section" id="home_section">
+					<div id="particles"></div>
+					<div class="content">
+						<span class="hi in_animation">Hello, I am</span>
+						<span class="name in_animation">Amy Opas.</span>
+						<!-- <span class="title in_animation">I like developing stuff.</span> -->
+						<p class="bio in_animation">
+							I'm a software engineer passionate about reverse-engineering, game development, and creating immersive, efficient software solutions. I'm more than eager to pursue any opportunity that comes in my path.
+						</p>
+						<div class="home_button in_animation">
+							<a class="button" href="#about">
+								<p>Get Started</p>
+								<svg class="button_arrow" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 17.69 17.39"><g>
+									<path class="path_1" d="M8.9 12.4 L8.9 12.4"/>
+									<path class="path_2" d="M16.2 5 8.9 12.4 1.5 5"/>
+								</g></svg>
+							</a>
+						</div>
+					</div>
+				</section>
+
+				<link rel="stylesheet" type="text/css" href="css/about.css"/>
+
+				<a id="about"></a>
+				<section class="section" id="about_section">
+					<div class="content">
+						<span class="section_title">Who am I?</span>
+						<div class="about_content">
+							<p class="p_1">
+								Hey, I'm Amy! I've been programming for as long as I can remember, constantly exploring new technologies and building projects that push my skills further. I'm passionate about software development, reverse-engineering, and game development, always eager to learn new techniques and methods. I'm committed to developing solutions, creating meaningful software, and mentoring others along the way.
+								<br/><br/>
+								I've always believed the best way to learn is by doing. That's why I've spent a lot of time creating and maintaining <a class="link" href="https://reapermc.github.io" target="_blank">ReaperMC</a>, a set of libraries and tools for the custom programming language. As the solo developer and maintainer of the project, I've honed my skills in software architecture, problem-solving, and managing long-term open-source projects.
+							</p>
+							<!-- <div class="photo">
+								<img class="in_animation" src="resources/images/PictureLatest.jpg" alt="photo" width="400px" height="360px"/>
+							</div> -->
+						</div>
+					</div>
+				</section>
+				<div class="section_end about_end"></div>
+
+
+				<link rel="stylesheet" type="text/css" href="css/experience.css"/>
+
+				<a id="experience"></a>
+				<section class="section" id="experience_section">
+					<div class="content leaning">
+						<span class="section_title">Professional Experience</span>
+						<div class="experience_content"></div>
+					</div>
+				</section>
+				<div class="section_end experience_end"></div>
+
+
+				<a id="about"></a>
+				<section class="section" id="about_section">
+					<div class="content">
+						<span class="section_title"></span>
+						<div class="about_content">
+						</div>
+					</div>
+				</section>
+				<div class="section_end about_end"></div>
+
+
+
+				<link rel="stylesheet" type="text/css" href="css/projects.css"/>
+				<link rel="stylesheet" type="text/css" href="css/other_projects.css"/>
+
+				<a id="projects"></a>
+				<section class="section" id="projects_section">
+					<div class="content leaning">
+						<span class="section_title">... aaand My Projects</span>
+						<div class="projects_content">
+						</div>
+						<div class="other_projects_content"></div>
+					</div>
+				</section>
+				<div class="section_end projects_end"></div>
+
+				<link rel="stylesheet" type="text/css" href="css/contact.css"/>
+
+				<a id="contact"></a>
+				<section class="section" id="contact_section">
+					<div class="content leaning">
+						<span class="section_title">Contact Me</span>
+						<div class="contact_content">
+							<div class="social_line">
+								<a class="social_link" href="https://www.linkedin.com/in/amy-opas/" target="_blank" style="--size: 150.13px;">
+									<img src="resources/svgs/contact/Linkedin.svg" alt="linkedin" width="50px" height="50px"/>
+									<div class="social_text">
+										<span>amy-opas</span>
+									</div>
+								</a>
+							</div>
+							<div class="social_line">
+								<a class="social_link" href="https://github.com/thehuglet" target="_blank" style="--size: 90.65px;">
+									<img src="resources/svgs/contact/GitHub.svg" alt="github" width="50px" height="50px"/>
+									<div class="social_text"> 
+										<span>thehuglet</span>
+									</div>
+								</a>
+								<a class="social_link" href="#" target="_blank" style="--size: 95px;">
+									<img src="resources/svgs/contact/Discord.svg" alt="discord" width="50px" height="50px"/>
+									<div class="social_text">
+										<span>thehuglet</span>
+									</div>
+								</a>
+							</div>
+							<div class="social_line">
+								<div class="social_link" style="--size: 237px;">
+									<a href="mailto: amy.opas@proton.me" target="_blank">
+										<img src="resources/svgs/contact/Mail.svg" alt="mail" width="50px" height="50px"/>
+									</a>
+									<div class="social_text">
+										<span>amy.opas@proton.me</span>
+									</div>
+								</div>
+							</div>
+						</div>
+						<br>
+						<div class="contact_content">
+							<div class="social_line">
+								<a class="social_link" href="CV.pdf" download="CV.pdf" style="--size: 128px;">
+									<img src="resources/svgs/contact/ProfessionalCV.svg" alt="discord" width="50px" height="50px"/>
+									<div class="social_text">
+										<span>CV</span>
+									</div>
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				</section>
+			</main>
+		</div>
+	</body>
+</html>

@@ -1,0 +1,164 @@
+{
+	"projects":
+	[
+		{
+			"title": "ReaperMC",
+			"description": "Toolkit for creating advanced Minecraft datapacks using Bolt, a custom scripting language combining Python and MCFunction. Features high-level functions, control flow, and custom events, simplifying complex logic for developers.",
+			"tags":
+			[
+				{ "name": "Python", "url": "https://www.python.org/" },
+				{ "name": "Bolt", "url": "https://github.com/mcbeet/bolt" },
+				{ "name": "Sphinx", "url": "https://www.sphinx-doc.org/en/master/" },
+				{ "name": "pytest", "url": "https://docs.pytest.org/en/stable/#" },
+				{ "name": "Poetry", "url": "https://python-poetry.org/" }
+			],
+			"links":
+			[
+				"https://reapermc.github.io/",
+				"https://reapermc.github.io/",
+				"https://reapermc.github.io/"
+			],
+			"video": "none",
+			"image": "resources/images/projects/reapermc.jpg",
+			"logo": "none",
+			"categories": ["none"]
+		},
+		{
+			"title": "Space Stars",
+			"description": "A GLSL fragment shader which runs on the GameMaker engine.",
+			"tags":
+			[
+				{ "name": "GML", "url": "https://manual.gamemaker.io/monthly/en/GameMaker_Language/GML_Overview/GML_Overview.htm" },
+				{ "name": "GLSL", "url": "https://en.wikipedia.org/wiki/OpenGL_Shading_Language" },
+				{ "name": "GameMaker", "url": "https://gamemaker.io/en" }
+			],
+			"links":
+			[
+				"#",
+				"#",
+				"#"
+			],
+			"video": "resources/videos/projects/stars_shader.mp4",
+			"image": "resources/images/projects/stars_shader.png",
+			"logo": "resources/images/projects/stars_shader.png",
+			"categories": ["none"]
+		},
+		{
+
+			"title": "Neon Game Prototype",
+			"description": "Prototype for a game idea I've had for a while. Features fast-paced 2D combat and a neon-themed sprite style.",
+			"tags":
+			[
+				{ "name": "GML", "url": "https://manual.gamemaker.io/monthly/en/GameMaker_Language/GML_Overview/GML_Overview.htm" },
+				{ "name": "GLSL", "url": "https://en.wikipedia.org/wiki/OpenGL_Shading_Language" },
+				{ "name": "GameMaker", "url": "https://gamemaker.io/en" }
+			],
+			"links":
+			[
+				"#",
+				"#",
+				"#"
+			],
+			"video": "resources/videos/projects/neon_prototype.mp4",
+			"image": "resources/images/projects/neon_prototype.png",
+			"logo": "resources/images/projects/neon_prototype.png",
+			"categories": ["none"]
+		},
+		{
+			"title": "LoL-BNC",
+			"description": "Batch name checker for the game League of Legends, allows to easily find unique available names using the LCU API.",
+			"tags":
+			[
+				{ "name": "Python", "url": "https://www.python.org/" },
+				{ "name": "LCU API", "url": "https://riot-api-libraries.readthedocs.io/en/latest/lcu.html" }
+			],
+			"links":
+			[
+				"https://github.com/thehuglet/lol-batch-name-checker/",
+				"https://github.com/thehuglet/lol-batch-name-checker/",
+				"https://github.com/thehuglet/lol-batch-name-checker/"
+			],
+			"video": "none",
+			"image": "none",
+			"logo": "resources/images/projects/NotAvailable.png",
+			"categories": ["none"]
+		},
+		{
+			"title": "Fast Movement Fix",
+			"description": "A fix for Minecraft's poor handling of higher movement speeds when falling and jumping.",
+			"tags":
+			[
+				{ "name": "Python", "url": "https://www.python.org/" },
+				{ "name": "Bolt", "url": "https://github.com/mcbeet/bolt" },
+				{ "name": "ReaperMC", "url": "https://reapermc.github.io/" },
+				{ "name": "Matplotlib", "url": "https://matplotlib.org/" }
+			],
+			"links":
+			[
+				"https://github.com/thehuglet/fast-movement-fix",
+				"https://github.com/thehuglet/fast-movement-fix",
+				"https://github.com/thehuglet/fast-movement-fix"
+			],
+			"video": "none",
+			"image": "none",
+			"logo": "resources/images/projects/NotAvailable.png",
+			"categories": ["none"]
+		},
+		{
+			"title": "Unstable TNT",
+			"description": "A datapack which adds ways to use the normally inaccessible Unstable TNT in survival Minecraft.",
+			"tags":
+			[
+				{ "name": "Python", "url": "https://www.python.org/" },
+				{ "name": "Bolt", "url": "https://github.com/mcbeet/bolt" },
+				{ "name": "ReaperMC", "url": "https://reapermc.github.io/" }
+			],
+			"links":
+			[
+				"https://github.com/thehuglet/unstable-tnt-datapack/",
+				"https://github.com/thehuglet/unstable-tnt-datapack/",
+				"https://github.com/thehuglet/unstable-tnt-datapack/"
+			],
+			"video": "none",
+			"image": "none",
+			"logo": "resources/images/projects/NotAvailable.png",
+			"categories": ["none"]
+		},
+		{
+			"title": "Ravenfall",
+			"description": "Simple python-esque indentation based lexer and parser.",
+			"tags":
+			[
+				{ "name": "Python", "url": "https://www.python.org/" }
+			],
+			"links":
+			[
+				"https://github.com/thehuglet/ravenfall/",
+				"https://github.com/thehuglet/ravenfall/",
+				"https://github.com/thehuglet/ravenfall/"
+			],
+			"video": "resources/videos/projects/Mimi.mp4",
+			"image": "resources/images/projects/Mimi.png",
+			"logo": "resources/images/projects/NotAvailable.png",
+			"categories": ["none"]
+		},
+		{
+			"title": "LoL-Akshan-Leveling-Bot",
+			"description": "Simple fully AFK python leveling bot for League of Legends.",
+			"tags":
+			[
+				{ "name": "Python", "url": "https://www.python.org/" }
+			],
+			"links":
+			[
+				"https://github.com/thehuglet/lol-akshan-leveling-bot/",
+				"https://github.com/thehuglet/lol-akshan-leveling-bot/",
+				"https://github.com/thehuglet/lol-akshan-leveling-bot/"
+			],
+			"video": "none",
+			"image": "none",
+			"logo": "resources/images/projects/NotAvailable.png",
+			"categories": ["none"]
+		}
+	]
+}
