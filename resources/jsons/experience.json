@@ -12,6 +12,9 @@
 				{ "name": "Java", "url": "https://www.java.com/en/" },
 				{ "name": "AutoHotkey", "url": "https://www.autohotkey.com/" },
 				{ "name": "Rust", "url": "https://rustup.rs/" },
+				{ "name": "C#", "url": "https://dotnet.microsoft.com/en-us/languages/csharp/" },
+				{ "name": "Godot", "url": "https://godotengine.org/" },
+				
 				{ "name": "Godot", "url": "https://godotengine.org/" },
 				{ "name": "Game Testing", "url": "https://en.wikipedia.org/wiki/Game_testing"}
 			],
