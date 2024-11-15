@@ -5,15 +5,15 @@
 			"date": "Mar 2020 - Now",
 			"type": "Freelancer",
 			"title": "Freelancing",
-			"description": "Developed Python and AutoHotkey scripts to automate tasks for clients. Took commissions for programming projects, offered mentoring in programming, sound design, level design and software design.",
+			"description": "Developed Python and AutoHotkey scripts to automate tasks for clients. Took commissions for programming projects in Python, Java and C#, offered mentoring in programming, game development (level design, sound design, general game design) and software design. Offered video game QA testing for clients.",
 			"tags":
 			[
 				{ "name": "Python", "url": "https://www.python.org/" },
 				{ "name": "Java", "url": "https://www.java.com/en/" },
 				{ "name": "AutoHotkey", "url": "https://www.autohotkey.com/" },
 				{ "name": "Rust", "url": "https://rustup.rs/" },
-				{ "name": "Godot", "url": "https://godotengine.org/" }
-				
+				{ "name": "Godot", "url": "https://godotengine.org/" },
+				{ "name": "Game Testing", "url": "https://en.wikipedia.org/wiki/Game_testing"}
 			],
 			"link": "none",
 			"video": "none",
@@ -23,11 +23,12 @@
 			"date": "Nov 2022 - Jan 2023",
 			"type": "CAD Designer",
 			"title": "BUDMA Trade",
-			"description": "Created CAD designs for aluminum doors and windows based on client specifications, ensuring the correct configurations for production. Developed AutoHotkey scripts to automate tasks. Generated project quotes and coordinated with production teams to align design requirements with manufacturing capabilities.",
+			"description": "Created CAD designs for aluminum doors and windows based on specifications provided by the client. Communicated and provided clients with quotes, ensuring client satisfaction and assisting in making the right choices. Actively consulted with the production team. Developed AutoHotkey automation scripts, speeding up the general workflow by eliminating repetition.",
 			"tags":
 			[
 				{ "name": "Procural CAD Software", "url": "https://procural-group.com/" },
-				{ "name": "AutoHotkey", "url": "https://www.autohotkey.com/" }
+				{ "name": "AutoHotkey", "url": "https://www.autohotkey.com/" },
+				{ "name": "CAD", "url": "https://en.wikipedia.org/wiki/Computer-aided_design/" }
 			],
 			"link": "http://budmakolo.pl/",
 			"video": "none",
@@ -37,11 +38,11 @@
 			"date": "Feb 2022 - Jan 2023",
 			"type": "Founder & Maintainer",
 			"title": "ReaperMC",
-			"description": "Developed and maintained ReaperMC, a framework for the Bolt scripting language, enhancing Minecraft datapack development with high-level functions, abstract variables, streamlined event handling, and comprehensive documentation. Built libraries for custom control flows, efficient variable management, and optimized function calls, allowing modular, pythonic scripting in Minecraft's native environment.",
+			"description": "Founded and maintained ReaperMC, an ecosystem of high-level APIs, libraries and frameworks developed for the Bolt scripting language, allowing for a more streamlined and structured workflow inside the language. Features custom high-level abstractions and functions, a math library, a comprehensive event handler system supporting user-defined custom events, taking advantage of a language-hack optimizations. Wrote comprehensive technical documentation for the project. Pioneered various concepts inside the Bolt ecosystem community, of which the impact can be seen until today.",
 			"tags":
 			[
 				{ "name": "Python", "url": "https://www.python.org/" },
-				{ "name": "Bolt", "url": "https://github.com/mcbeet/bolt" },
+				{ "name": "Bolt", "url": "https://github.com/mcbeet/bolt/" },
 				{ "name": "Sphinx", "url": "https://www.sphinx-doc.org/en/master/" },
 				{ "name": "pytest", "url": "https://docs.pytest.org/en/stable/#" },
 				{ "name": "Poetry", "url": "https://python-poetry.org/" }
@@ -54,12 +55,15 @@
 			"date": "Jul 2022 - Sep 2022 ",
 			"type": "Game Developer",
 			"title": "Logdotzip Studios",
-			"description": "Created immersive Minecraft maps based on design documents, using Bolt scripting to streamline development and enhance gameplay. Created unique 2D textures, custom animated 3D models in Blockbench, and coded map elements to ensure a polished experience. Developed environments that were ready for recording, allowing talent to jump in and engage with the gameplay seamlessly.",
+			"description": "Developed immersive experiences inside of Minecraft for a famous multi-million subscriber channel network on YouTube. Created custom 2D pixel-art textures from scratch. Created and animated 3D models using Blockbench. Programmed in functionality for custom items and entities using datapacks, leveraging the Bolt scripting language and ReaperMC to speed up development. Utilized level design knowledge and tricks to make a visually engaging experience for the viewer.",
 			"tags":
 			[
-				{ "name": "Bolt", "url": "https://github.com/mcbeet/bolt" },
 				{ "name": "MCFunction", "url": "https://minecraft.fandom.com/wiki/Data_pack" },
-				{ "name": "Blockbench", "url": "https://www.blockbench.net/" }
+				{ "name": "Bolt", "url": "https://github.com/mcbeet/bolt/" },
+				{ "name": "ReaperMC", "url": "https://reapermc.github.io/" },
+				{ "name": "Blockbench", "url": "https://www.blockbench.net/" },
+				{ "name": "3D Modeling", "url": "https://en.wikipedia.org/wiki/3D_modeling/"},
+				{ "name": "3D Animation", "url": "https://en.wikipedia.org/wiki/Computer_animation/"}
 			],
 			"link": "https://www.youtube.com/@Logdotzip",
 			"video": "none",
