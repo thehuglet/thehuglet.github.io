@@ -3,7 +3,7 @@
 	[
 		{
 			"title": "ReaperMC",
-			"description": "Toolkit for creating advanced Minecraft datapacks using Bolt, a custom scripting language combining Python and MCFunction. Features high-level functions, control flow, and custom events, simplifying complex logic for developers.",
+			"description": "Ecosystem of high-level APIs, libraries and frameworks developed for the Bolt scripting language, allowing for a more streamlined and structured workflow inside the language. Features custom high-level abstractions and functions, a math library, a comprehensive event handler system supporting user-defined custom events, taking advantage of a language-hack optimizations.",
 			"tags":
 			[
 				{ "name": "Python", "url": "https://www.python.org/" },
@@ -46,7 +46,7 @@
 		{
 
 			"title": "Neon Game Prototype",
-			"description": "Prototype for a game idea I've had for a while. Features fast-paced 2D combat and a neon-themed sprite style.",
+			"description": "Prototype for a game idea I've had for a while. Features fast-paced 2D combat and a neon-themed sprite style. Made using the GameMaker engine.",
 			"tags":
 			[
 				{ "name": "GML", "url": "https://manual.gamemaker.io/monthly/en/GameMaker_Language/GML_Overview/GML_Overview.htm" },
