@@ -55,10 +55,10 @@
 			"image": "resources/images/workexp/reapermc.png"
 		},
 		{
-			"date": "Jul 2022 - Sep 2022 ",
+			"date": "Jul 2022 - August 2022 ",
 			"type": "Game Developer",
 			"title": "Logdotzip Studios",
-			"description": "Developed immersive experiences inside of Minecraft for a famous multi-million subscriber channel network on YouTube. Created custom 2D pixel-art textures from scratch. Created and animated 3D models using Blockbench. Programmed in functionality for custom items and entities using datapacks, leveraging the Bolt scripting language and ReaperMC to speed up development. Utilized level design knowledge and tricks to make a visually engaging experience for the viewer.",
+			"description": "Developed immersive experiences inside of Minecraft for a famous channel network on YouTube. Created custom 2D pixel-art textures from scratch. Created and animated 3D models using Blockbench. Programmed in functionality for custom items and entities using datapacks, leveraging the Bolt scripting language and ReaperMC to speed up development. Utilized level design knowledge and tricks to make a visually engaging experience for the viewer.",
 			"tags":
 			[
 				{ "name": "MCFunction", "url": "https://minecraft.fandom.com/wiki/Data_pack" },
