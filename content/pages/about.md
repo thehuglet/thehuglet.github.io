@@ -5,12 +5,7 @@ title = "About"
 Hello, World!
 
 I'm Amy, also known as thehuglet, a systems programmer who loves building low-level, data-driven software.
-I predominantly use Zig, Rust and C for my personal projects, with some Python sprinkled in there.
-
-> *What would alpha-blending in a terminal environment look like?*
-
-That question led me to build a published terminal rendering library with support for RGBA colors, sub-pixel rendering,
-and a built-in particle system, pushing past typical assumptions about terminal graphics.
+For my personal projects, I predominantly use Zig, Rust and C, with some Python sprinkled in there.
 
 I'd like to inspire others to write simpler and performance-aware code,
 and try unconventional ideas in the name of fun and exploration.
