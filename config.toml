@@ -17,6 +17,6 @@ logo_text = "thehuglet.github.io"
 author = "thehuglet"
 
 menu_items = [
-    {name = "about", url = "$BASE_URL/pages/about"},
-    {name = "hire me", url = "$BASE_URL/pages/hireme"},
+    {name = "about", url = "pages/about"},
+    {name = "hire me", url = "pages/hireme"},
 ]
