@@ -1,0 +1,22 @@
+# The URL the site will be built for
+base_url = "http://localhost:1111"
+
+# Whether to automatically compile all Sass files in the sass directory
+compile_sass = true
+
+title = "Epic site title"
+theme = "terminimal"
+
+# Whether to build a search index to be used later on by a JavaScript library
+build_search_index = false
+
+[extra]
+accent_color = "orange"
+background_color = "orange"
+logo_text = "thehuglet.github.io"
+author = "thehuglet"
+
+menu_items = [
+    {name = "about", url = "$BASE_URL/pages/about"},
+    {name = "hire me", url = "$BASE_URL/pages/hireme"},
+]
