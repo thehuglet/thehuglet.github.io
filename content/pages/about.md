@@ -16,3 +16,11 @@ I'd like to inspire others to write simpler and performance-aware code,
 and try unconventional ideas in the name of fun and exploration.
 
 Programming can be fun if you let it.
+
+---
+
+#### Contact
+
+- GitHub: <a href="https://github.com/thehuglet/" target="_blank">thehuglet</a>
+- LinkedIn: <a href="https://linkedin.com/in/amy-opas/" target="_blank">amy-opas</a>
+- Email: [Email](mailto:amy.opas@proton.me)
