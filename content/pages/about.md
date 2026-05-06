@@ -1,10 +1,9 @@
 +++
-title = "About"
+title = "about"
 +++
 
-Hello, World!
-
 I'm Amy, also known as thehuglet, a systems programmer who loves building low-level, data-driven software.
+
 For my personal projects, I predominantly use Zig, Rust and C, with some Python sprinkled in there.
 
 I'd like to inspire others to write simpler and performance-aware code,
@@ -14,7 +13,7 @@ Programming can be fun if you let it.
 
 ---
 
-#### Contact
+##### contact
 
 - GitHub: <a href="https://github.com/thehuglet/" target="_blank">thehuglet</a>
 - LinkedIn: <a href="https://linkedin.com/in/amy-opas/" target="_blank">amy-opas</a>
