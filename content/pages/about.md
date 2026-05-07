@@ -17,4 +17,4 @@ Programming can be fun if you let it.
 
 - GitHub: <a href="https://github.com/thehuglet/" target="_blank">thehuglet</a>
 - LinkedIn: <a href="https://linkedin.com/in/amy-opas/" target="_blank">amy-opas</a>
-- Email: [Email](mailto:amy.opas@proton.me)
+- Email: [amy.opas@proton.me](mailto:amy.opas@proton.me)
