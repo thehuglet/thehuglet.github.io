@@ -6,10 +6,10 @@ A terminal-based slot machine game written in Rust.
 
 <img src="/resources/projects/term-slots-rs/preview.png" alt="preview" width="350" />
 
-The game loop revolves around spinning a slot machine full of cards.
-Obtained cards can be played on the table and give a payout and score depending on the poker hand and card value.
+The game revolves around spinning the slot machine to obtain cards.
+Cards can be played on the table, giving a payout based on the played poker hand.
 
-The goal of the game is to get a high score, as the cost of spinning the slots grows with each spin.
+A high score is the goal, as the spin cost grows with each pull.
 
 ---
 
