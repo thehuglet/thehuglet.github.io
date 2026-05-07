@@ -32,4 +32,6 @@ around UI elements and dragged cards - something not typically seen in terminal 
 
 ---
 
-repo: <a href="https://github.com/thehuglet/term-slots-rs" target="_blank">thehuglet/term-slots-rs</a>
+##### Links
+
+- Repository: <a href="https://github.com/thehuglet/term-slots-rs" target="_blank">thehuglet/term-slots-rs</a>

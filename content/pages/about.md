@@ -13,7 +13,7 @@ Programming can be fun if you let it.
 
 ---
 
-##### contact
+##### Contact
 
 - GitHub: <a href="https://github.com/thehuglet/" target="_blank">thehuglet</a>
 - LinkedIn: <a href="https://linkedin.com/in/amy-opas/" target="_blank">amy-opas</a>

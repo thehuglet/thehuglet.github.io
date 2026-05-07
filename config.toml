@@ -19,5 +19,5 @@ author = "thehuglet"
 menu_items = [
     {name = "projects", url = "$BASE_URL/pages/projects"},
     {name = "about", url = "$BASE_URL/pages/about"},
-    {name = "hire me", url = "$BASE_URL/pages/hire-me"},
+    {name = "hire-me", url = "$BASE_URL/pages/hire-me"},
 ]

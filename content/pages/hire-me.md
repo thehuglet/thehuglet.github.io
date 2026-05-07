@@ -1,5 +1,5 @@
 +++
-title = "hire me"
+title = "hire-me"
 +++
 
 Let's work together!
@@ -14,7 +14,7 @@ performance-critical, or unconventional software, feel free to reach out!
 
 ---
 
-##### contact
+##### Contact
 
 - GitHub: <a href="https://github.com/thehuglet/" target="_blank">thehuglet</a>
 - LinkedIn: <a href="https://linkedin.com/in/amy-opas/" target="_blank">amy-opas</a>
