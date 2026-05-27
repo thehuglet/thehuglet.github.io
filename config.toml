@@ -7,10 +7,12 @@ compile_sass = true
 title = "thehuglet.github.io"
 theme = "terminimal"
 
+
 # Whether to build a search index to be used later on by a JavaScript library
 build_search_index = false
 
 [extra]
+favicon = "/favicon.png"
 accent_color = "orange"
 background_color = "dark"
 logo_text = "thehuglet.github.io"
