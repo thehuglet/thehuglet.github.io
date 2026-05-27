@@ -8,12 +8,16 @@ title = "term-slots-rs"
 
 Terminal-based slot machine game written in Rust.
 
-<img src="/resources/projects/term-slots-rs/preview.png" alt="preview" width="350" />
+<p align="center">
+    <!--<img src="/resources/projects/germterm/blending.gif" alt="alpha blending gif"/>-->
+    <img src="/resources/projects/term-slots-rs/preview.png" alt="preview" style="width: 700px;" />
+</p>
+
 
 The game revolves around spinning the slot machine to obtain cards.
 Cards can be played on the table, giving a payout based on the played poker hand.
 
-A high score is the goal, as the spin cost grows with each pull.
+Reaching the highest score is the goal, as the spin cost grows with each pull.
 
 ---
 
@@ -24,7 +28,7 @@ A high score is the goal, as the spin cost grows with each pull.
 - No external assets, everything is generated in code.
 - Capable of FPS numbers in the thousands, even on low-end hardware.
 - Cross-compatible with most terminal emulators.
-- Features toggleable shaders (vignette, gamma correction & background GFX).
+- Features toggleable shaders (vignette, gamma correction & background FX).
 
 The game uses a custom software-rendering pipeline.
 Low-level terminal IO is handled by the <a href="https://github.com/crossterm-rs/crossterm" target="_blank">crossterm</a> crate.
