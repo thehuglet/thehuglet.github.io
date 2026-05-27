@@ -4,7 +4,7 @@ title = "about"
 
 I'm Amy, also known as thehuglet, a systems programmer who loves building low-level, data-driven software.
 
-For my personal projects, I predominantly use Zig, Rust and C, with some Python sprinkled in there.
+I predominantly use Zig, Rust and C and Python for my personal projects.
 
 I'd like to inspire others to write simpler and performance-aware code,
 and try unconventional ideas in the name of fun and exploration.

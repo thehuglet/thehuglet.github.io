@@ -2,13 +2,6 @@
 title = "projects"
 +++
 
-##### Games
-
-- [project-neon](/pages/projects/project-neon) - neon-themed shmup running a custom engine
-- [term-slots-rs](/pages/projects/term-slots-rs) - terminal game with slots, cards, and poker aspects
-
----
-
-##### Libraries
-
-- [germterm](/pages/projects/germterm) - opinionated Rust terminal graphics library
+- [project-neon](/pages/projects/project-neon) - Neon-themed shmup game running a custom engine written in Zig.
+- [germterm](/pages/projects/germterm) - Opinionated terminal rendering library written in Rust.
+- [term-slots-rs](/pages/projects/term-slots-rs) - Terminal game with slots, cards, and poker aspects.

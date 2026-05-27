@@ -2,7 +2,11 @@
 title = "term-slots-rs"
 +++
 
-A terminal-based slot machine game written in Rust.
+- Repo: <a href="https://github.com/thehuglet/term-slots-rs" target="_blank">https://github.com/thehuglet/term-slots-rs</a>
+
+---
+
+Terminal-based slot machine game written in Rust.
 
 <img src="/resources/projects/term-slots-rs/preview.png" alt="preview" width="350" />
 
@@ -29,9 +33,3 @@ The pipeline composes terminal cells in real-time and outputs diffs to stdout.
 
 This enables real alpha compositing, making it possible to render effects like shadows
 around UI elements and dragged cards - something not typically seen in terminal games.
-
----
-
-##### Links
-
-- Repository: <a href="https://github.com/thehuglet/term-slots-rs" target="_blank">thehuglet/term-slots-rs</a>
