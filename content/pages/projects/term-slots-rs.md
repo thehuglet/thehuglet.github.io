@@ -9,7 +9,6 @@ title = "term-slots-rs"
 Terminal-based slot machine game written in Rust.
 
 <p align="center">
-    <!--<img src="/resources/projects/germterm/blending.gif" alt="alpha blending gif"/>-->
     <img src="/resources/projects/term-slots-rs/preview.png" alt="preview" style="width: 700px;" />
 </p>
 
