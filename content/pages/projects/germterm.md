@@ -19,13 +19,13 @@ This is a low-level rendering library, it's not made with widget-based TUIs in m
 
 You will almost certainly like this project if your goal is creating interactive terminal games.
 
-Unlike most projects terminal libraries, germterm delivers real high-performance alpha compositing,
-which adds support for colors with transparency among.
+Unlike most terminal libraries, germterm delivers real high-performance alpha compositing,
+which adds support for colors with transparency.
 
 Notable features:
 - Real alpha compositing using the Porter-Duff source-over method.
 - Support for drawing to layers.
-- Built-in particle system with approximate physics.
+- Built-in particle system with physics.
 - Drawing formats that support sub-pixel precision.
 - Cross-platform with a variety of supported terminals.
 
@@ -41,7 +41,7 @@ A brief rundown over the rendering pipeline:
     1. Previous characters and attributes may be preserved or overridden.
     2. Background and foreground colors are blended contextually.
     3. Characters and colors may be merged depending on format.
-4. Framebuffer is diffed for performance, which reduces terminal IO.
+4. Framebuffer is diffed to reduce terminal IO.
 5. Diffs are flushed to stdout via <a href="https://github.com/crossterm-rs/crossterm" target="_blank">crossterm</a>.
 
 ---
