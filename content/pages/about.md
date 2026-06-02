@@ -2,14 +2,19 @@
 title = "about"
 +++
 
-I'm Amy, also known as thehuglet, a systems programmer who loves building low-level, data-driven software.
+I'm **Amy**, known as **thehuglet** online.
+I'm a low-level systems programmer with a track record of building robust software and systems from the ground up. 
+I have experience working with **Rust**, **Zig**, **C**, **Python** and **Java**.
 
-I predominantly use Zig, Rust and C and Python for my personal projects.
+I have worked professionally on <a href="https://modrinth.com/mod/dungeon-now-loading/" target="_blank">**Dungeon Now Loading**</a>,
+a Minecraft Java mod with over 9 million combined downloads.
+My work included implementing gameplay features and contributed to playtesting.
 
-I'd like to inspire others to write simpler and performance-aware code,
-and try unconventional ideas in the name of fun and exploration.
+I built [**germterm**](/pages/projects/germterm/), a terminal rendering library that adds support for unconventional features,
+such as layered drawing with transparency and sub-pixel drawing.
 
-Programming can be fun if you let it.
+I'm currently building [**project-neon**](/pages/projects/project-neon/), a 2D game written from scratch using Zig with raylib bindings.
+The game runs on my own ECS implementation and uses a custom GPU driven particle system.
 
 ---
 
