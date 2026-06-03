@@ -25,6 +25,8 @@ This opens the door for many unique visual effects, as terminal emulators don't 
     <img src="/resources/projects/germterm/blending.gif" alt="alpha blending gif"/>
 </p>
 
+---
+
 ##### Technical overview
 
 A brief rundown over the rendering pipeline:
