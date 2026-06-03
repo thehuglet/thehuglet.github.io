@@ -3,36 +3,36 @@ title = "term-slots-rs"
 +++
 
 - Repo: <a href="https://github.com/thehuglet/term-slots-rs" target="_blank">https://github.com/thehuglet/term-slots-rs</a>
+- Release: <a href="https://github.com/thehuglet/term-slots-rs/releases/latest" target="_blank">https://github.com/thehuglet/term-slots-rs/releases/latest</a>
 
 ---
 
-Terminal-based slot machine game written in Rust.
+Poker, except the card dealer is a slot machine.
 
 <p align="center">
     <img src="/resources/projects/term-slots-rs/preview.png" alt="preview" style="width: 700px;" />
 </p>
 
+A poker & slots terminal game written in Rust.
 
-The game revolves around spinning the slot machine to obtain cards.
-Cards can be played on the table, giving a payout based on the played poker hand.
+Spinning the slot machine costs credits and rewards cards.
 
-Reaching the highest score is the goal, as the spin cost grows with each pull.
+Cards can be played on the table for credits.
+
+Your goal is reaching the highest score before you run out of credits, as the cost of spinning increases after each pull.
 
 ---
 
 ##### Technical overview
 
-- Full mouse support (drag & drop).
-- Binary size is 1 MB for Linux and 0.5 MB for Windows.
-- No external assets, everything is generated in code.
-- Capable of FPS numbers in the thousands, even on low-end hardware.
-- Cross-compatible with most terminal emulators.
-- Features toggleable shaders (vignette, gamma correction & background FX).
+The game uses a custom rendering pipeline.
+Drawing is done via draw calls, which accumulate in a queue.
+This draw queue is then composed onto a flat framebuffer that then gets diffed for performance.
 
-The game uses a custom software-rendering pipeline.
-Low-level terminal IO is handled by the <a href="https://github.com/crossterm-rs/crossterm" target="_blank">crossterm</a> crate.
+Direct terminal IO is handled by the <a href="https://github.com/crossterm-rs/crossterm" target="_blank">crossterm</a> crate.
 
-The pipeline composes terminal cells in real-time and outputs diffs to stdout.
+The game features fragment shaders running on the CPU:
 
-This enables real alpha compositing, making it possible to render effects like shadows
-around UI elements and dragged cards - something not typically seen in terminal games.
+- Background noise
+- Vignette
+- Gamma Correction

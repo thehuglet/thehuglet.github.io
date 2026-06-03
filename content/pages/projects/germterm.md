@@ -7,7 +7,7 @@ title = "germterm"
 
 ---
 
-Opinionated terminal rendering library written in Rust.
+A Rust terminal rendering library.
 
 <div style="display: flex; gap: 0px; justify-content: space-between;">
   <img src="/resources/projects/germterm/fireworks.gif" alt="fireworks gif" style="width: 33%;" />
@@ -15,21 +15,15 @@ Opinionated terminal rendering library written in Rust.
   <img src="/resources/projects/germterm/snake.gif" alt="snake gif" style="width: 33%;" />
 </div>
 
-This is a low-level rendering library, it's not made with widget-based TUIs in mind.
+The library features a set of drawing primitives that can be used to create interactive terminal games and applications.
+The primitives range from drawing simple text to drawing sub-cell precision using unicode characters.
 
-You will almost certainly like this project if your goal is creating interactive terminal games.
+Germterm's rendering pipeline does real alpha compositing, which allows for drawing with transparency.
+This opens the door for many unique visual effects, as terminal emulators don't typically support colors with transparency.
 
-Unlike most terminal libraries, germterm delivers real high-performance alpha compositing,
-which adds support for colors with transparency.
-
-Notable features:
-- Real alpha compositing using the Porter-Duff source-over method.
-- Support for drawing to layers.
-- Built-in particle system with physics.
-- Drawing formats that support sub-pixel precision.
-- Cross-platform with a variety of supported terminals.
-
----
+<p align="center">
+    <img src="/resources/projects/germterm/blending.gif" alt="alpha blending gif"/>
+</p>
 
 ##### Technical overview
 
@@ -38,16 +32,14 @@ A brief rundown over the rendering pipeline:
 1. Layered draw queues are flattened. This does not require sorting.
 2. OOB calls are handled and discarded.
 3. Flattened draw queue is fed into the compositor.
-    1. Previous characters and attributes may be preserved or overridden.
-    2. Background and foreground colors are blended contextually.
-    3. Characters and colors may be merged depending on format.
+   1. Previous characters and attributes may be preserved or overridden.
+   2. Background and foreground colors are blended contextually.
+   3. Characters and colors may be merged depending on format.
 4. Framebuffer is diffed to reduce terminal IO.
 5. Diffs are flushed to stdout via <a href="https://github.com/crossterm-rs/crossterm" target="_blank">crossterm</a>.
 
----
+##### Acknowledgements
 
-Common cases the compositor covers:
+Big thanks to the awesome developers behind <a href="https://github.com/crossterm-rs/crossterm" target="_blank">crossterm</a>.
 
-<p align="center">
-    <img src="/resources/projects/germterm/blending.gif" alt="alpha blending gif"/>
-</p>
+Their work made this project possible.
