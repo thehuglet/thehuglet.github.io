@@ -4,7 +4,7 @@ base_url = "https://thehuglet.com"
 # Whether to automatically compile all Sass files in the sass directory
 compile_sass = true
 
-title = "thehuglet"
+title = "thehuglet.com"
 theme = "terminimal"
 
 
@@ -15,7 +15,7 @@ build_search_index = false
 favicon = "/favicon.png"
 accent_color = "orange"
 background_color = "dark"
-logo_text = "thehuglet"
+logo_text = "thehuglet.com"
 author = "thehuglet"
 
 menu_items = [
