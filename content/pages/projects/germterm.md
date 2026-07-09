@@ -40,6 +40,8 @@ A brief rundown over the rendering pipeline:
 4. Framebuffer is diffed to reduce terminal IO.
 5. Diffs are flushed to stdout via <a href="https://github.com/crossterm-rs/crossterm" target="_blank">crossterm</a>.
 
+---
+
 ##### Acknowledgements
 
 Big thanks to the awesome developers behind <a href="https://github.com/crossterm-rs/crossterm" target="_blank">crossterm</a>.
