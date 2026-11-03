@@ -1,5 +1,5 @@
 +++
-title = "Project-Neyon"
+title = "Project Neyon"
 +++
 
 - Handmade Network: <a href="https://handmade.network/p/895/project-neyon/" target="_blank">https://handmade.network/p/895/project-neyon/</a>
