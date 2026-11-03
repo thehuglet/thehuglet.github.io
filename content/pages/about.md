@@ -16,8 +16,6 @@ such as alpha compositing, sub-pixel drawing and a 2D particle system.
 I'm currently building [**Project Neyon**](/pages/projects/project-neyon/), a 2D space shooter game written from scratch in **Zig**.
 The game runs on a custom ECS, has a custom 2D physics implementation and a dedicated OpenGL compute and rendering pipeline for 2D particles.
 
----
-
 ##### Contact
 
 - GitHub: <a href="https://github.com/thehuglet/" target="_blank">thehuglet</a>
